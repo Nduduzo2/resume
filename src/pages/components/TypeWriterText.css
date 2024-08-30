@@ -1,0 +1,16 @@
+.IntroP {
+	margin-bottom: 50px;
+}
+
+.des {
+	color: #964734;
+}
+
+@media (max-width: 1000px){
+	.IntroP {
+		margin-bottom: 25px;
+	}
+	/*h1 {
+		font-size: 40px;
+	}*/
+}

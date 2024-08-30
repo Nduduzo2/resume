@@ -1,0 +1,100 @@
+body{ 
+overflow-x :hidden; 
+}
+
+.home {
+	height: 100vh;
+	/*height: -webkit-fill-available;*/
+	margin-top: 0px;
+	padding: 0px;
+	position: sticky;
+	background-color: transparent; /*#1A4D2E*/;
+	font-family: "Roslindale Display Condensed";
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-direction: column;
+
+}
+
+h1  {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #E0E7E9;
+  font-size: clamp(2rem, 8vw, 6rem); /*5rem*/;
+}
+
+.animText {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	background-color: #0A1237;
+	/*border-bottom: solid 15px #758391;
+	border-top: solid 15px #758391;
+	margin-top: 10px;*/
+}
+
+.up {
+	width: 100vw;
+	height: 10px;
+	background-color: transparent;
+	display: flex;
+	margin-top: 10px;
+	
+}
+
+.upShape {
+	width: 45%;
+	background-color:#758391;
+	height: 10px;
+	border-top-right-radius: 20px;
+}
+
+.down {
+	width: 100vw;
+	height: 10px;
+	background-color: transparent;
+	display: flex;
+	align-items: right;
+	justify-content: right;
+}
+
+.downShape {
+	width: 45%;
+	background-color: #758391;
+	height: 10px;
+	border-bottom-left-radius: 20px;
+}
+
+h3 {
+	font-weight: normal;
+}
+	
+
+.react-icons {
+	cursor: pointer;
+}
+
+@media (width <= 1050px) and (height <=1400px){
+	.home {
+		height: 550px;
+		margin-bottom: 20px;
+	}
+	
+}
+
+@media (width <= 800px) and (height <=1400px){
+	.home {
+		height: 600px;
+		margin-bottom: 20px;
+	}
+	
+}
+
+
+
+

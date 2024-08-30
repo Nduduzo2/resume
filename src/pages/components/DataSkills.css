@@ -1,0 +1,220 @@
+ul {
+	list-style: none;
+
+}
+
+
+ul li {
+	display: flex;
+	background-color: var(--background-color);
+	box-sizing: border-box;
+	/*margin-top: 20px;*/
+	border-style: solid;
+	border-color: black;
+	padding: 5px;
+	border-width: 1px;
+	border-radius: 5px;
+	display: inline-block;
+	--background-color:#F1F1F1;
+	position: relative;
+	color: #020424;
+}
+
+
+.dataskills {
+	display: flex;
+  	align-items: center;
+  	flex-direction: column;
+  	row-gap: 0px;
+}
+
+.excel::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #0b0f57;
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.excel:hover::before,
+.excel:focus::before {
+	transform: scaleX(1);
+}
+
+.excel {
+	z-index: 1;
+}
+
+.python::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #151c91;
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.python:hover::before,
+.python:focus::before {
+	transform: scaleX(1);
+}
+
+.python {
+	z-index: 1;
+}
+
+.numpy::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #151c91;
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.numpy:hover::before,
+.numpy:focus::before {
+	transform: scaleX(1);
+}
+
+.numpy {
+	z-index: 1;
+}
+
+.pandas::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #151c91;
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.pandas:hover::before,
+.pandas:focus::before {
+	transform: scaleX(1);
+}
+
+.pandas {
+	z-index: 1;
+}
+
+.ml::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #141dba;
+	transition: transform 500ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.ml:hover::before,
+.ml:focus::before {
+	transform: scaleX(1);
+}
+
+.ml {
+	z-index: 1;
+}
+
+.mysql::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #151c91;
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.mysql:hover::before,
+.mysql:focus::before {
+	transform: scaleX(1);
+}
+
+.mysql {
+	z-index: 1;
+}
+
+.mat::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #141dba;
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.mat:hover::before,
+.mat:focus::before {
+	transform: scaleX(1);
+}
+
+.mat {
+	z-index: 1;
+}
+
+.jupyter::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #141dba;
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.jupyter:hover::before,
+.jupyter:focus::before {
+	transform: scaleX(1);
+}
+
+.jupyter {
+	z-index: 1;
+}
+
+@media (max-height: 1000px) {
+	.dataskills {
+		height: auto;
+		padding-bottom: 10px;
+	}
+}

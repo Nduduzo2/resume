@@ -1,0 +1,262 @@
+ul {
+	list-style: none;
+
+}
+
+li.html {
+	margin-top: 20px;
+	color: #020424;
+}
+
+li.javascript {
+	margin-top: 0px;
+	color: #020424;
+}
+
+li.css {
+	margin-top: 0px;
+	color: #020424;
+}
+
+li.react {
+	margin-top: 0px;
+	color: #020424;
+}
+
+li.framer {
+	margin-top: 0px;
+	color: #020424;
+}
+
+li.bootstrap {
+	margin-top: 0px;
+	color: #020424;
+}
+
+li.git {
+	margin-top: 0px;
+	color: #020424;
+}
+
+li.figma {
+	margin-top: 0px;
+	color: #020424;
+} 
+
+ul li {
+	display: flex;
+	background-color: var(--background-color);
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: black;
+
+	padding: 5px;
+	border-width: 1px;
+	border-radius: 5px;
+	display: inline-block;
+	--background-color:#F1F1F1;
+	position: relative;
+}
+
+.webskills {
+	display: flex;
+  	align-items: center;
+  	flex-direction: column;
+  	row-gap: 0px;
+
+}
+
+
+
+.html::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #0b0f57;
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+
+
+.html:hover::before,
+.html:focus::before {
+	transform: scaleX(1);
+}
+
+.html {
+	z-index: 1;
+}
+
+.javascript::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #141dba;
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.javascript:hover::before,
+.javascript:focus::before {
+	transform: scaleX(1);
+}
+
+.javascript {
+	z-index: 1;
+}
+
+.css::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #0b0f57;
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.css:hover::before,
+.css:focus::before {
+	transform: scaleX(1);
+}
+
+.css {
+	z-index: 1;
+}
+
+.react::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #10167e;
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.react:hover::before,
+.react:focus::before {
+	transform: scaleX(1);
+}
+
+.react {
+	z-index: 1;
+}
+
+.framer::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #10167e;
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.framer:hover::before,
+.framer:focus::before {
+	transform: scaleX(1);
+}
+
+.framer {
+	z-index: 1;
+}
+
+.bootstrap::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #12187c;
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.bootstrap:hover::before,
+.bootstrap:focus::before {
+	transform: scaleX(1);
+}
+
+.bootstrap {
+	z-index: 1;
+}
+
+.git::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #1d27ce;
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.git:hover::before,
+.git:focus::before {
+	transform: scaleX(1);
+}
+
+.git {
+	z-index: 1;
+}
+
+.figma::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	background-color: #151c91;
+	transition: transform 300ms ease-in-out;
+	transform: scaleX(0);
+	transform-origin: left;
+}
+
+.figma:hover::before,
+.figma:focus::before {
+	transform: scaleX(1);
+}
+
+.figma {
+	z-index: 1;
+}
+
+@media (max-height: 1000px) {
+	.webskills {
+		height: auto;
+		padding-bottom: 10px;
+	}
+}

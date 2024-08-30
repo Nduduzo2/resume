@@ -1,0 +1,335 @@
+.ExpEdu {
+	display: flex;
+	flex-direction: column;
+	grid-row-gap: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	align-items: center;
+	flex-wrap: nowrap;
+
+
+}
+
+.ExpHeader {
+	display: flex;
+
+}
+
+.EduHeader {
+	display: flex;
+
+}
+
+span {
+	font-weight: normal;
+}
+
+
+.Experience {
+	background-color: transparent;
+	width: 80%;
+	height: 90vh;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 0;
+	margin-left: 10%;
+	margin-right: 10%;
+	transition: 1s;
+	
+}
+
+.Experience:hover {
+	scale: 1.035;
+	/*border: solid black 1px;*/
+}
+
+.Topic {
+	font-size: 20px;
+	margin-bottom: -20px;
+	font-weight: bold;
+	color: #030634;
+}
+
+
+.Education {
+	background-color: transparent;
+	width: 80%;
+	height: 90vh;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 0;
+	margin-left: 10%;
+	margin-right: 10%;
+	transition: 1s;
+	
+}
+
+.Education:hover {
+	scale: 1.035;
+	/*border: solid black 1px;*/
+}
+
+.Matric {
+	border-left: solid #964734 2px;
+	margin-left: 10px;
+	padding-left: 5px;
+	margin-top: 20px;
+}
+
+.Degree {
+	border-left: solid #964734 2px;
+	margin-left: 10px;
+	padding-left: 5px;
+
+}
+
+.TSList {
+	margin: 10px;
+}
+
+.SSList {
+	margin: 10px;
+}
+
+.ETopic {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.AgEng {
+	text-decoration: underline;
+}
+
+.Header {
+	margin-top: 10px;
+	
+	margin-bottom: 20px;
+	height: 105.84px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+
+
+
+.Tutoring {
+	margin-top: 20px;
+	margin-left: 10px;
+	padding-left: 5px;
+	border-left: solid #964734 2px;
+
+}
+
+.Clicks {
+	margin-top: 20px;
+	margin-left: 10px;
+	padding-left: 5px;
+	border-left: solid #964734 2px;
+
+}
+
+.AgriKool {
+	margin-top: 20px;
+	margin-left: 10px;
+	padding-left: 5px;
+	border-left: solid #964734 2px;
+}
+
+.AgRes {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	margin-top: 5px;
+}
+
+.AgRes > * {
+	flex: 0 1 32%;
+}
+
+.TutRes {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	margin-top: 5px;
+}
+
+.TutRes > * {
+	flex: 0 1 200px;
+	color: #030634;
+}
+
+.ClicksRes {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	margin-top: 5px;
+}
+
+.ClicksRes > * {
+	flex: 0 1 200px;
+	color: #030634;
+}
+
+.TSkills {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+
+}
+
+.TSkills > * {
+	flex: 0 1 200px;
+	color: #030634;
+}
+
+.sSkills {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+}
+
+.sSkills > * {
+	flex: 0 1 200px;
+	color: #030634;
+}
+
+ul li {
+	text-align: center;
+}
+
+@media (max-width: 1050px) {
+	/*.ExpEdu {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		gap: 20px;
+		margin-top: 20px;
+	}*/
+
+	.Experience {
+		height: auto;
+		padding-bottom: 10px;
+		width: 80%;
+		width: 85%;
+		margin-left: 7.5%;
+		margin-right: 7.5%;
+	}
+
+	.Education {
+		margin-bottom: 10px;
+		height: auto;
+		width: 80%;
+		padding-bottom: 10px;
+		width: 85%;
+		margin-left: 7.5%;
+		margin-right: 7.5%;
+		
+
+	}
+
+}
+
+@media (max-width: 600px) {
+	.ExpEdu {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		row-gap: 20px;
+		margin-top: 20px;
+	}
+	
+	.Experience {
+		width: 85%;
+		margin-left: 7.5%;
+		margin-right: 7.5%;
+		height: auto;
+		padding-bottom: 10px;
+	}
+
+	.Education {
+		margin-bottom: 10px;
+		width: 85%;
+		margin-left: 7.5%;
+		margin-right: 7.5%;
+		height: auto;
+		padding-bottom: 10px;
+		
+
+	}
+
+	.AgRes {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	}
+
+	.AgRes > * {
+	flex: 0 1 49%;
+	}
+
+	.TutRes {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 5px;
+	}
+
+	.TutRes > * {
+		flex: 0 1 49%;
+	}
+
+	.ClicksRes {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 5px;
+	}
+
+	.ClicksRes > * {
+		flex: 0 1 49%;
+	}
+
+	.TSkills {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 5px;
+	}
+
+	.TSkills > * {
+		flex: 0 1 49%;
+	}
+
+	.sSkills {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 5px;
+	}
+
+	.sSkills > * {
+		flex: 0 1 49%;
+	}
+
+}
+
+@media (max-height: 550px) {
+	.ExpEdu {
+		margin-top: 20px;
+		height: auto;
+		
+	}
+
+	.Experience {
+		height: auto;
+		padding-bottom: 10px;
+	}
+	.Education {
+		height: auto;
+		padding-bottom: 10px;
+	}
+
+
+}

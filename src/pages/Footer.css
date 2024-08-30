@@ -1,0 +1,77 @@
+
+
+.footer {
+	margin-top: 20px;
+	height: auto;
+	background-color: #0A1237;
+	padding: 20px;
+	min-height: auto;
+
+}
+
+.fLogo {
+	display: flex;
+	justify-content: center;
+}
+
+/*.contactDetails {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 10px;
+}*/
+
+.contactDetails {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	margin-top: 5px;
+}
+
+.contactDetails > * {
+	flex: 0 1 49%;
+}
+
+
+.Cellphone {
+	display: flex;
+	column-gap: 5px;
+	justify-content: center;
+}
+
+.Whatsapp {
+	display: flex;
+	column-gap: 5px;
+	justify-content: center;
+}
+
+.Email {
+	display: flex;
+	column-gap: 6px;
+	justify-content: center;
+}
+
+.Location {
+	display: flex;
+	column-gap: 5px;
+	justify-content: center;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	color: #E0E7E9;
+}
+
+@media (max-width: 650px) {
+    .contactDetails {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 10px;
+		}
+
+   
+}

@@ -1,0 +1,124 @@
+.skills {
+	height: 100vh;
+	display: flex;
+	grid-column-gap: 20px;
+	margin-bottom: 0px;
+	/*margin-top: 0px;*/
+	align-items: center;
+}
+
+.webDev {
+	background-color: transparent;
+	width: 50%;
+	height: 90vh;
+	margin-left: 30px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 0;
+	transition: 1s;
+	
+}
+
+.webDev:hover {
+	scale: 1.035;
+	border: solid #964734 1px;
+}
+
+.Data {
+	background-color: transparent;
+	width: 50%;
+	height: 90vh;
+	margin-right: 30px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 0;
+	transition: 1s;
+}
+
+.Data:hover {
+	scale: 1.035;
+	border: solid #964734 1px;
+}
+
+.WebHeader {
+	margin-top: 10px;
+	margin-bottom: -10px;
+
+}
+
+.dataHeader {
+	margin-top: 10px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+
+
+@media (width <= 1050px) {
+
+	.skills {
+		height: auto;
+		
+	}
+
+	.webDev {
+		height: auto;
+		padding-bottom: 10px;
+	}
+
+	.Data {
+		height: auto;
+		padding-bottom: 10px;
+	}
+
+}
+
+@media (max-width: 650px) {
+	.skills {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+		row-gap: 20px;
+		flex-basis: 100%;
+
+	}
+
+	.webDev {
+		width: 85%;
+		margin-left: 7.5%;
+		margin-right: 7.5%;
+	}
+
+	.Data {
+		width: 85%;
+		margin-left: 7.5%;
+		margin-right: 7.5%;
+		
+	}
+
+
+}
+
+@media (max-height: 1000px) {
+	.skills {
+		/*margin-top: 20px;*/
+		height: auto;
+		
+	}
+
+	.webDev {
+		height: auto;
+		padding-bottom: 10px;
+	}
+	.Data {
+		height: auto;
+		padding-bottom: 10px;
+	}
+
+
+}
+
+
